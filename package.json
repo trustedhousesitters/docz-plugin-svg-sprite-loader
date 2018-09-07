@@ -5,6 +5,7 @@
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
   "license": "MIT",
+  "homepage": "https://github.com/trustedhousesitters/docz-plugin-svg-sprite-loader",
   "files": [
     "dist/",
     "package.json",
