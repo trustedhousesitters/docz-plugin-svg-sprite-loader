@@ -1,0 +1,29 @@
+{
+  "name": "docz-plugin-svg-sprite-loader",
+  "version": "0.1.0",
+  "description": "A plugin to use svg-sprite-loader with docz",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "license": "MIT",
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "rollup": "^0.65.2",
+    "rollup-plugin-babel": "^4.0.1",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-uglify": "^5.0.2",
+    "svg-sprite-loader": "^3.9.2"
+  },
+  "peerDependencies": {
+    "docz-core": "^0.11.1"
+  }
+}
